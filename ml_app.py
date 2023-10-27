@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+from lightgbm import LGBMClassifier
 
 #load ML package
 import joblib
